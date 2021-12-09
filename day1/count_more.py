@@ -29,8 +29,8 @@ def count_avg(file):
 
 def main():
     print("the answer is ")
-    print(count_more("../data/real_data_day1"))
-    print(count_avg("../data/real_data_day1"))
+    print(count_more("data/real_data_day1"))
+    print(count_avg("data/real_data_day1"))
 
 if __name__ == "__main__":
     main()
