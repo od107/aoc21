@@ -1,6 +1,31 @@
 
 
+
+
+
+def life_support(file):
+    calc_result(file)
+    oxygen, co2 = calc_oxygen_co2()
+    return oxygen * co2
+
+def calc_oxygen_co2():
+    #todo rework
+    oxygen = 0
+    co2 = 0
+    for bit in result:
+        if bit > 0:
+            pass
+
+
+    return oxygen, co2
+
 def get_power(file):
+    calc_result(file)
+    gamma, epsilon = calc_epsilon_gamma()
+    return gamma * epsilon
+
+
+def calc_result(file):
     f = open(file, "r")
     value = list(f.readline().strip())
     global result
@@ -9,12 +34,9 @@ def get_power(file):
     for next in f:
         value = list(next.strip())
         handle_input_bits(value)
-    gamma, epsilon = calculate_epsilon_gamma()
     f.close()
-    return gamma * epsilon
 
-
-def calculate_epsilon_gamma():
+def calc_epsilon_gamma():
     gamma = 0
     epsilon = 0
     base = 1
