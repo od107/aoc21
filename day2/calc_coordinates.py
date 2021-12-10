@@ -11,6 +11,7 @@ def calc_coordinates(file):
             y += value
         elif command[0] == "up":
             y -= value
+    f.close()
     return x * y
 
 def new_calc_coordinates(file):

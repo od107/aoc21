@@ -18,6 +18,7 @@ def count_avg(file, window):
             values[i-1] = values[i]
         values[window-1] = next
         last_sum = new_sum
+    f.close()
     return count
 
 
