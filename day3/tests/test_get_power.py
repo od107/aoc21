@@ -6,4 +6,4 @@ def test_get_power():
 
 def test_life_support():
     assert life_support("day3/data/test_data") == 230
- #   assert life_support("day3/data/real_data") == 3813416
+    assert life_support("day3/data/real_data") == 2990784
