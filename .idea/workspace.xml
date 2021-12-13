@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/bingo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/data/real_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/data/test_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day4/tests/test_bingo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day3/get_power.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/get_power.py" afterDir="false" />
     </list>
@@ -103,18 +111,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day3/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\git\advent of code\day1\tests" />
-      <recent name="C:\git\testing_project\sum" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code" />
       <recent name="C:\git\advent of code\day3\tests" />
       <recent name="C:\git\testing_project\tests\test_sum" />
       <recent name="C:\git\testing_project\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code\day1\tests" />
+      <recent name="C:\git\testing_project\sum" />
     </key>
   </component>
   <component name="RunManager" selected="Python.get_power">
@@ -284,18 +293,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day3/get_power.py</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day3/get_power.py</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day3/get_power.py</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day4/bingo.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

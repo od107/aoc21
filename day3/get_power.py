@@ -5,6 +5,7 @@ def life_support(file):
         value = list(next_line.strip())
         o_list.append(value)
     co2_list = o_list.copy()
+    f.close()
 
     clean_list(o_list, False)
     clean_list(co2_list, True)
