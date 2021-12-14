@@ -1,11 +1,10 @@
 def bingo(file):
+    boards = []
     with open(file) as f:
         drawn = f.readline().strip().split(",")
 
-        values = [''] * 5
-        boards = []
-
         while True:
+            values = [''] * 5
             line = f.readline()
             if not line:
                 break
@@ -35,12 +34,10 @@ def draw_numbers(drawn, boards):
 
 
 class Board:
-    values = [''] * 5
-    drawn = [[False] * 5] * 5
-    won = False
-
     def __init__(self, values):
         self.values = values
+        self.drawn = [[False for i in range(5)] for j in range(5)]
+        self.won = False
 
     def mark_number(self, number):
         for i in range(5):
@@ -50,21 +47,22 @@ class Board:
                     self.check_if_won(i, j)
 
     def check_if_won(self, i, j):
-        for x in range (5):
+        for x in range(5):
             if not self.drawn[x][j]:
                 break
             if x == 4:
                 self.won = True
-        for y in range (5):
+        for y in range(5):
             if not self.drawn[i][y]:
                 break
-            if x == 4:
+            if y == 4:
                 self.won = True
+
 
 def main():
     print("the answer is ")
     print(bingo("data/test_data"))
-#    print(bingo("data/real_data"))
+    print(bingo("data/real_data"))
 #    print(life_support("data/test_data"))
 #    print(life_support("data/real_data"))
 
