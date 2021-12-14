@@ -1,4 +1,4 @@
-from day3.get_power import *
+from day4.bingo import *
 
 def test_bingo():
     assert bingo("day4/data/test_data") == 4512
