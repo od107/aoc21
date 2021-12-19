@@ -8,25 +8,28 @@ def position_crabs(file, incr=False):
     upper = max(crabs)
     lowest_score = sys.maxsize
 
+    if incr:
+        incr_cost = calc_incr_cost(upper-lower)
+
     for pos in range(lower, upper):
         if not incr:
             fuel = calc_fuel(pos, crabs)
         else:
- #           incr_cost = calc_incr_cost(upper-lower)
-            fuel = calc_fuel_incr(pos, crabs)
+            fuel = calc_fuel_incr(pos, crabs, incr_cost)
         if fuel < lowest_score:
             lowest_score = fuel
 
     return lowest_score
 
 
-#def calc_incr_cost(range):
-    #precalculate the cost.
-#    incr_cost = [0] * range
-#    cost = 0
-#    for i in range(range):
-#        incr_cost[i] = cost
-#        cost += 1
+def calc_incr_cost(spread):
+    incr_cost = [0] * (spread + 1)
+    cost = 1
+    for i in range(1, spread + 1):
+        incr_cost[i] = incr_cost[i-1] + cost
+        cost += 1
+    return incr_cost
+
 
 def calc_fuel(pos, crabs):
     fuel = 0
@@ -35,13 +38,11 @@ def calc_fuel(pos, crabs):
     return fuel
 
 
-def calc_fuel_incr(pos, crabs):
+def calc_fuel_incr(pos, crabs, incr_cost):
     fuel = 0
     for crab in crabs:
-        cost = 1
-        for i in range(abs(pos - crab)):
-            fuel += cost
-            cost += 1
+        idx = abs(pos - crab)
+        fuel += incr_cost[idx]
     return fuel
 
 
