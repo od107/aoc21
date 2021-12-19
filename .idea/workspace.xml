@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/crabs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/data/real_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/data/test_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/tests/test_crabs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/fish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/tests/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +133,7 @@
       <recent name="C:\git\testing_project\sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fish">
+  <component name="RunManager" selected="Python.crabs">
     <configuration name="bingo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +155,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="crabs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/crabs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fish" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,27 +189,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/fish.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_power" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testing_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/get_power.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crabs" />
         <item itemvalue="Python.fish" />
         <item itemvalue="Python.test_fish" />
         <item itemvalue="Python.vents" />
         <item itemvalue="Python.bingo" />
-        <item itemvalue="Python.get_power" />
       </list>
     </recent_temporary>
   </component>
