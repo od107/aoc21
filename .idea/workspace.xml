@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/data/real_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/data/test_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/fish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/tests/test_vent.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/tests/test_vent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/vents.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/vents.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -119,7 +133,7 @@
       <recent name="C:\git\testing_project\sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vents">
+  <component name="RunManager" selected="Python.fish">
     <configuration name="bingo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="calc_coordinates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fish" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,12 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/calc_coordinates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/fish.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_calc_coordinates" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_fish" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,12 +205,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day2/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2/tests/test_calc_coordinates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/tests/test_fish.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fish" />
+        <item itemvalue="Python.test_fish" />
         <item itemvalue="Python.vents" />
         <item itemvalue="Python.bingo" />
         <item itemvalue="Python.get_power" />
-        <item itemvalue="Python.calc_coordinates" />
-        <item itemvalue="Python.test_calc_coordinates" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +328,11 @@
           <url>file://$PROJECT_DIR$/day5/vents.py</url>
           <line>23</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day6/fish.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
