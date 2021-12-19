@@ -7,6 +7,9 @@ def test_fish():
     assert fish("day6/data/real_data", 80) == 352151
 
 
-#def test_vent_diag():
-#    assert vents("day6/data/test_data", False) == 12
-#    assert vents("day6/data/real_data", False) == 21406
+def test_fish_fast():
+    assert fish_fast("day6/data/test_data", 18) == 26
+    assert fish_fast("day6/data/test_data", 80) == 5934
+    assert fish_fast("day6/data/real_data", 80) == 352151
+    assert fish_fast("day6/data/test_data", 256) == 26984457539
+    assert fish_fast("day6/data/real_data", 256) == 1601616884019

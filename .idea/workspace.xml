@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/data/test_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/fish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/fish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/tests/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,8 +325,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day6/fish.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="46" />
+          <line>23</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
