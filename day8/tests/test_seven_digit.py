@@ -6,6 +6,6 @@ def test_part1():
     assert seven_digit("day8/data/real_data") == 532
 
 
-#def test_part2():
-#    assert position_crabs("day7/data/test_data", True) == 168
-#   assert position_crabs("day7/data/real_data", True) == 99788435
+def test_part2():
+    assert total_output("day8/data/test_data") == 61229
+    assert total_output("day8/data/real_data") == 1011284

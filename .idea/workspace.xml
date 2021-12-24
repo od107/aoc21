@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day8/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/data/test_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/seven_digit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/seven_digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/seven_digit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,13 +340,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day8/seven_digit.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="53" />
+          <line>102</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day8/seven_digit.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="54" />
+          <line>21</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day8/seven_digit.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day8/seven_digit.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day8/seven_digit.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
