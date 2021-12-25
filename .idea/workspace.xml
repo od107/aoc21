@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/data/real_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/data/test_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/octopi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/tests/test_octopi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/data/real_data" beforeDir="false" afterPath="$PROJECT_DIR$/day10/data/real_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/data/test_data" beforeDir="false" afterPath="$PROJECT_DIR$/day10/data/test_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day10/syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/syntax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/test_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/test_syntax.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -115,44 +120,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day9/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day11" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code\day11" />
       <recent name="C:\git\advent of code\day9\data" />
       <recent name="C:\git\advent of code" />
       <recent name="C:\git\advent of code\day3\tests" />
       <recent name="C:\git\testing_project\tests\test_sum" />
-      <recent name="C:\git\testing_project\tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code\day11\tests" />
       <recent name="C:\git\advent of code\day1\tests" />
       <recent name="C:\git\testing_project\sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_syntax.py">
-    <configuration name="crabs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testing_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/crabs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.octopi">
     <configuration name="height" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +151,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/height.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="octopi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/octopi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.octopi" />
         <item itemvalue="Python tests.Unittests in test_syntax.py" />
         <item itemvalue="Python.syntax" />
         <item itemvalue="Python.height" />
         <item itemvalue="Python.seven_digit" />
-        <item itemvalue="Python.crabs" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +381,11 @@
           <line>11</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day11/octopi.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -384,6 +395,12 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="octopi" language="Python" />
+        <watch expression="flashes" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">

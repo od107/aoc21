@@ -65,7 +65,6 @@ def readfile(file):
             line = f.readline()
             if not line:
                 break
-#            line = text_line.strip()
             line = [x for x in line]
             file_input += [line]
     return file_input
@@ -75,8 +74,6 @@ def main():
     print("the answer is ")
     print(syntax("data/test_data"))
     print(syntax("data/real_data"))
-#    print(total_output("data/test_data"))
-#    print(total_output("data/real_data"))
 
 
 if __name__ == "__main__":
