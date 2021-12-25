@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/data/test_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/syntax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/test_syntax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day9/data/test_data_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/data/real_data" beforeDir="false" afterPath="$PROJECT_DIR$/day10/data/real_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/data/test_data" beforeDir="false" afterPath="$PROJECT_DIR$/day10/data/test_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/test_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/test_syntax.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,8 +367,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day10/syntax.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="81" />
+          <line>55</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day10/syntax.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
