@@ -3,16 +3,16 @@ def height(file):
     lowest_values = []
 
     for y, line in enumerate(height_map):
-        for x, height in enumerate(line):
-            if x != 0 and height_map[y][x-1] < height:
+        for x, value in enumerate(line):
+            if x != 0 and height_map[y][x-1] <= value:
                 continue
-            if x < len(line)-1 and height_map[y][x+1] < height:
+            if x < len(line)-1 and height_map[y][x+1] <= value:
                 continue
-            if y != 0 and height_map[y-1][x] < height:
+            if y != 0 and height_map[y-1][x] <= value:
                 continue
-            if y < len(height_map)-1 and height_map[y+1][x] < height:
+            if y < len(height_map)-1 and height_map[y+1][x] <= value:
                 continue
-            lowest_values += [height + 1]
+            lowest_values += [value + 1]
 
     return sum(lowest_values)
 
