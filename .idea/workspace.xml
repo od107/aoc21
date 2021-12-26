@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day12/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/caves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/data/larger_cave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/data/less_simple_cave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/data/real_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/data/simple_cave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/tests/test_caves.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/data/test_data_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/octopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/octopi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day11/tests/test_octopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/tests/test_octopi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/tests/test_get_power.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/tests/test_get_power.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/tests/test_bingo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/tests/test_bingo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/tests/test_vent.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/tests/test_vent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/tests/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/tests/test_crabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/tests/test_crabs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/height.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/height.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/tests/test_height.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/tests/test_height.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,18 +130,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code" />
       <recent name="C:\git\advent of code\day11" />
       <recent name="C:\git\advent of code\day9\data" />
-      <recent name="C:\git\advent of code" />
       <recent name="C:\git\advent of code\day3\tests" />
       <recent name="C:\git\testing_project\tests\test_sum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code\day12\data" />
+      <recent name="C:\git\advent of code\day12\tests" />
       <recent name="C:\git\advent of code\day11\tests" />
       <recent name="C:\git\advent of code\day1\tests" />
       <recent name="C:\git\testing_project\sum" />

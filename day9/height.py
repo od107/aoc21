@@ -68,7 +68,7 @@ def main():
     print("the answer is ")
     print(height("data/test_data"))
     print(height("data/real_data"))
-#    print(total_output("data/test_data"))
+#    print(total_output("data/larger_cave"))
 #    print(total_output("data/real_data"))
 
 
