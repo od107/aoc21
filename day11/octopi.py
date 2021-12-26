@@ -1,19 +1,41 @@
 flashes = 0
 octopi = {}
 
-def calc_flashes(file):
+
+def calc_flashes(file, steps=100):
     global octopi
     global flashes
+    flashes = 0
+    flashes_at_100 = 0
+    step_all_flash = 0
     data = readfile(file)
     for y, row in enumerate(data):
         for x, value in enumerate(row):
             octopi[str(x) + "," + str(y)] = Octopus(x, y, int(value))
-    for step in range(100):
+
+    all_flash = False
+    while not all_flash:
+        all_flash = True
         for octopus in octopi.values():
             octopus.increase()
         for octopus in octopi.values():
+            if not octopus.flashed:
+                all_flash = False
             octopus.reset_flash()
-    return flashes
+        step_all_flash += 1
+        print_octo(step_all_flash)
+        if step_all_flash == 100:
+            flashes_at_100 = flashes
+    return flashes_at_100, step_all_flash
+
+
+def print_octo(step):
+    print("step: " + str(step))
+    for y in range(10):
+        for x in range(10):
+            print(octopi[str(x)+ "," + str(y)].energy, end=" ")
+        print(" ")
+    print(" ")
 
 
 class Octopus:
@@ -21,11 +43,8 @@ class Octopus:
     def __init__(self, x_pos, y_pos, energy):
         self.x_pos = x_pos
         self.y_pos = y_pos
- #       self.coordinates = coordinates
         self.energy = energy
         self.flashed = False
-
- #       self.drawn = [[False for i in range(5)] for j in range(5)]
 
     def increase(self):
         if not self.flashed:

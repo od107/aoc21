@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day11/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/data/test_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/octopi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/tests/test_octopi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/data/test_data_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/octopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/octopi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/tests/test_octopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/tests/test_octopi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,8 +377,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day11/octopi.py</url>
-          <line>10</line>
+          <line>16</line>
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day11/octopi.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
