@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day12/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/caves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/data/larger_cave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/data/less_simple_cave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/data/simple_cave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/tests/test_caves.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/tests/test_octopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/tests/test_octopi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/tests/test_get_power.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/tests/test_get_power.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/tests/test_bingo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/tests/test_bingo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/tests/test_vent.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/tests/test_vent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/tests/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/tests/test_crabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/tests/test_crabs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day9/height.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/height.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day9/tests/test_height.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/tests/test_height.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/day12/caves.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +131,28 @@
       <recent name="C:\git\testing_project\sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.octopi">
+  <component name="RunManager" selected="Python.caves">
+    <configuration name="caves" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/caves.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="height" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,27 +187,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/octopi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="seven_digit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testing_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day8/seven_digit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.caves" />
         <item itemvalue="Python.octopi" />
         <item itemvalue="Python tests.Unittests in test_syntax.py" />
         <item itemvalue="Python.syntax" />
         <item itemvalue="Python.height" />
-        <item itemvalue="Python.seven_digit" />
       </list>
     </recent_temporary>
   </component>
@@ -403,6 +385,16 @@
           <line>33</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day12/caves.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day12/caves.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -412,12 +404,6 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="octopi" language="Python" />
-        <watch expression="flashes" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
