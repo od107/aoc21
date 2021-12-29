@@ -1,6 +1,6 @@
 
 
-def calc_paths(file):
+def calc_paths(file, twice=False):
     caves = {}
     data = readfile(file)
 
@@ -13,24 +13,28 @@ def calc_paths(file):
             caves[line[1]].add_link(line[0])
 
     paths = []
-    explore(caves, caves["start"], paths)
+    explore(caves, caves["start"], paths, twice)
 
     return len(paths)
 
 
-def explore(caves, cave, paths, path=None):
-    if not path:
+def explore(caves, cave, paths, twice, path=None):
+    if path is None:
         path = []
 
+    if twice and cave.name.islower() and cave.name in path:
+        twice = False
+
     path.append(cave.name)
+
     if cave.name == "end":
-        print(path)
+        # print(path)
         paths += [path.copy()]
         return
 
     for link in cave.links:
-        if link.isupper() or link not in path:
-            explore(caves, caves[link], paths, path.copy())
+        if link != 'start' and (twice or link.isupper() or link not in path):
+            explore(caves, caves[link], paths, twice, path.copy())
 
 
 class Cave:
@@ -60,6 +64,11 @@ def main():
     print(calc_paths("data/less_simple_cave"))
     print(calc_paths("data/larger_cave"))
     print(calc_paths("data/real_data"))
+
+    print(calc_paths("data/simple_cave", True))
+    print(calc_paths("data/less_simple_cave", True))
+    print(calc_paths("data/larger_cave", True))
+    print(calc_paths("data/real_data", True))
 
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12/caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/day12/caves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/tests/test_caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/day12/tests/test_caves.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,13 +388,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day12/caves.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day12/caves.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="96" />
+          <line>37</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
