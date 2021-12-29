@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day10/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/tests/test_syntax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/day12/caves.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/tests/test_caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/day12/tests/test_caves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/test_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/tests/unit_test_syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/tests/test_octopi.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11/tests/test_octopi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/tests/test_get_power.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/tests/test_get_power.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/tests/test_bingo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/tests/test_bingo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/tests/test_vent.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/tests/test_vent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/tests/test_fish.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/tests/test_fish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/tests/test_crabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/tests/test_crabs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8/tests/test_seven_digit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/tests/test_height.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/tests/test_height.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,26 +123,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day10/tests" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code\day10\tests" />
       <recent name="C:\git\advent of code" />
       <recent name="C:\git\advent of code\day11" />
       <recent name="C:\git\advent of code\day9\data" />
       <recent name="C:\git\advent of code\day3\tests" />
-      <recent name="C:\git\testing_project\tests\test_sum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\advent of code\day10\tests" />
       <recent name="C:\git\advent of code\day12\data" />
       <recent name="C:\git\advent of code\day12\tests" />
       <recent name="C:\git\advent of code\day11\tests" />
       <recent name="C:\git\advent of code\day1\tests" />
-      <recent name="C:\git\testing_project\sum" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.caves">
+  <component name="RunManager" selected="Python tests.Unittests in unit_test_syntax.py">
     <configuration name="caves" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_syntax.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in unit_test_syntax.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="testing_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,15 +237,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/day10/test_syntax.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/day10/tests/unit_test_syntax.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in unit_test_syntax.py" />
         <item itemvalue="Python.caves" />
         <item itemvalue="Python.octopi" />
-        <item itemvalue="Python tests.Unittests in test_syntax.py" />
         <item itemvalue="Python.syntax" />
         <item itemvalue="Python.height" />
       </list>
@@ -388,7 +398,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day12/caves.py</url>
-          <line>37</line>
+          <line>21</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>

@@ -15,7 +15,7 @@ class TestPart2(unittest.TestCase):
         self.assertEqual(288957, syntax("data/test_data")[1])
 
     def test_real_data(self):
-        self.assertEqual(syntax("data/real_data")[1], 3122628974)
+        self.assertEqual(3122628974, syntax("data/real_data")[1])
 
 
 if __name__ == '__main__':
