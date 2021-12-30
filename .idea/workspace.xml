@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day15/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/chiton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/data/test_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/tests/test_chiton.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/chiton.py" beforeDir="false" afterPath="$PROJECT_DIR$/day15/chiton.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,8 +427,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day15/chiton.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="124" />
+          <line>43</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day15/chiton.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day15/chiton.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day15/chiton.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -446,6 +454,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self" language="Python" />
+        <watch expression="current_node.x" language="Python" />
+        <watch expression="current_node.y" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
