@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day14/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/data/real_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/data/test_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/polymer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/tests/test_polymer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/tests/test_origami.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/tests/test_origami.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/polymer.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/polymer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/tests/test_polymer.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14/tests/test_polymer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,13 +398,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day14/polymer.py</url>
-          <line>27</line>
+          <line>54</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day14/polymer.py</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day14/polymer.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day14/polymer.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day14/polymer.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day14/polymer.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
