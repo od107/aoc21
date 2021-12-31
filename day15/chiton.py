@@ -1,6 +1,7 @@
 import sys
 from collections import Counter, deque, defaultdict
 import operator, heapq
+import datetime
 
 
 def lowest_risk(file, big=False):
@@ -126,8 +127,11 @@ def get_data(file):
 def main():
     print("the answer is ")
     # print(lowest_risk("data/simple_test_data", True))
-    print(lowest_risk("data/test_data", True))
+    # print(lowest_risk("data/test_data", True))
+    start_time = datetime.datetime.now()
     print(lowest_risk("data/real_data", True))
+    end_time = datetime.datetime.now()
+    print(end_time - start_time)
 
 
 if __name__ == "__main__":
