@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aff4f83-9fb2-46aa-895f-8b5454dae7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day15/data/simple_test_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day15/chiton.py" beforeDir="false" afterPath="$PROJECT_DIR$/day15/chiton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/tests/test_chiton.py" beforeDir="false" afterPath="$PROJECT_DIR$/day15/tests/test_chiton.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,13 +427,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day15/chiton.py</url>
-          <line>59</line>
+          <line>73</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/day15/chiton.py</url>
-          <line>24</line>
+          <line>36</line>
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day15/chiton.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day15/chiton.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day15/chiton.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -455,6 +468,7 @@
         <watch expression="neighbor" language="Python" />
         <watch expression="x" language="Python" />
         <watch expression="y" language="Python" />
+        <watch expression="data" language="Python" />
       </configuration>
     </watches-manager>
   </component>

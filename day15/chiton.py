@@ -3,9 +3,24 @@ from collections import Counter, deque, defaultdict
 import operator, heapq
 
 
-def lowest_risk(file):
+def lowest_risk(file, big=False):
     global data
-    data = readfile(file)
+    data = get_data(file)
+
+    if big:
+        width = len(data[0])
+        height = len(data)
+        new_map = [[0 for x in range(width * 5)] for y in range(height * 5)]
+        for i in range(5):
+            for j in range(5):
+                for x in range(width):
+                    for y in range(height):
+                        value = (data[y][x] + i + j)
+                        if value > 9:
+                            value -= 9
+                        new_map[height * j + y][width * i + x] = value
+        data = new_map
+
     global dest
     dest = (len(data[0])-1, len(data)-1)
 
@@ -32,25 +47,21 @@ def lowest_risk(file):
         for x in range(max(0, current_node.x-1), min(dest[1]+1, current_node.x+2)):
             if x == current_node.x:
                 continue
-            # here was the performance gain
             neighbor = entry_finder[(x, current_node.y)]
-            # neighbor = find(pqueue, x, current_node.y)
             if neighbor:
                 neighbors += [neighbor]
 
         for y in range(max(0, current_node.y-1), min(dest[1]+1, current_node.y+2)):
             if y == current_node.y:
                 continue
-            # here was the performance gain
             neighbor = entry_finder[(current_node.x, y)]
-            # neighbor = find(pqueue, current_node.x, y)
             if neighbor:
                 neighbors += [neighbor]
 
         for neighbor in neighbors:
             alt = current_node.dist + neighbor.risk
             if alt < neighbor.dist:
-                # this update messes up the order of the priority queue
+                # this update messes up the order of the priority queue: again heapyify needed
                 # using new_node and removed property instead of heapify doesn't help in performance
                 neighbor.removed = True
                 new_node = Node(neighbor.x, neighbor.y, neighbor.risk)
@@ -59,6 +70,7 @@ def lowest_risk(file):
                 heapq.heappush(pqueue, new_node)
                 entry_finder[(new_node.x, new_node.y)] = new_node
 
+        # todo: compare performance with new node & removed attribute vs heapify
         # heapq.heapify(pqueue)
 
     current_node = find(considered_list, dest[0], dest[1])
@@ -98,7 +110,7 @@ class Node:
         return self.x == other.x and self.y == other.y
 
 
-def readfile(file):
+def get_data(file):
     data = []
     with open(file) as f:
         while True:
@@ -113,9 +125,9 @@ def readfile(file):
 
 def main():
     print("the answer is ")
-    # print(lowest_risk("data/simple_test_data"))
-    print(lowest_risk("data/test_data"))
-    print(lowest_risk("data/real_data"))
+    # print(lowest_risk("data/simple_test_data", True))
+    print(lowest_risk("data/test_data", True))
+    print(lowest_risk("data/real_data", True))
 
 
 if __name__ == "__main__":
