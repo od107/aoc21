@@ -1,11 +1,8 @@
-import sys
 from collections import Counter, deque, defaultdict
-import operator, heapq
-import datetime
+import sys, heapq, datetime
 
 
 def lowest_risk(file, big=False):
-    global data
     data = get_data(file)
 
     if big:
@@ -22,7 +19,6 @@ def lowest_risk(file, big=False):
                         new_map[height * j + y][width * i + x] = value
         data = new_map
 
-    global dest
     dest = (len(data[0])-1, len(data)-1)
 
     pqueue = []
@@ -62,17 +58,13 @@ def lowest_risk(file, big=False):
         for neighbor in neighbors:
             alt = current_node.dist + neighbor.risk
             if alt < neighbor.dist:
-                # this update messes up the order of the priority queue: again heapyify needed
-                # using new_node and removed property instead of heapify doesn't help in performance
+                # found this performance gain with removed status in the heapq documentation
                 neighbor.removed = True
                 new_node = Node(neighbor.x, neighbor.y, neighbor.risk)
                 new_node.dist = alt
                 new_node.parent = current_node
                 heapq.heappush(pqueue, new_node)
                 entry_finder[(new_node.x, new_node.y)] = new_node
-
-        # todo: compare performance with new node & removed attribute vs heapify
-        # heapq.heapify(pqueue)
 
     current_node = find(considered_list, dest[0], dest[1])
     return current_node.dist
@@ -89,11 +81,7 @@ def find(arr, x, y):
 
 
 class Node:
-    global data
-    global dest
-
     def __init__(self, x, y, risk):
-
         self.x = x
         self.y = y
         self.dist = sys.maxsize
