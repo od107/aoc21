@@ -11,11 +11,13 @@ def angle():
     y_max = 10 * abs(y_target[0]-y_target[1])
     x_max = max(x_target) + 1
     y_min = y_target[0]
+    # x_min the solution for n^2+n-2x=0 with x being x_target[0]
+    x_min = int(((8 * x_target[0] + 1)**0.5 - 1) / 2)
 
     count = 0
 
     for y_vel in reversed(range(y_min, y_max)):
-        for x_vel in range(x_max):
+        for x_vel in range(x_min, x_max):
             success, max_height = shoot(x_vel, y_vel, x_target, y_target)
             if success:
                 count += 1
