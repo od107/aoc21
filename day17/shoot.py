@@ -6,9 +6,8 @@ def angle():
     x_target = [209, 238]
     y_target = [-86, -59]
 
-    # the issue here is correctly limiting the search space
-    # how do we choose a proper upper bound for y_vel?
-    y_max = 10 * abs(y_target[0]-y_target[1])
+    # the issue here was correctly limiting the search space
+    y_max = -y_target[0]
     x_max = max(x_target) + 1
     y_min = y_target[0]
     # x_min the solution for n^2+n-2x=0 with x being x_target[0]
