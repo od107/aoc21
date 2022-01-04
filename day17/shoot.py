@@ -1,11 +1,6 @@
-import math
-from collections import Counter, deque, defaultdict
-import sys, heapq, datetime
-
-
 def angle():
-    x_target = [20, 30]
-    y_target = [-10, -5]
+    # x_target = [20, 30]
+    # y_target = [-10, -5]
     # target = [[20, -5], [30, -10]]
     # real target area: x=209..238, y=-86..-59
     x_target = [209, 238]
@@ -14,14 +9,20 @@ def angle():
     # the issue here is correctly limiting the search space
     # how do we choose a proper upper bound for y_vel?
     y_max = 10 * abs(y_target[0]-y_target[1])
-    x_max = max(x_target)
+    x_max = max(x_target) + 1
+    y_min = y_target[0]
 
-    for y_vel in reversed(range(y_max)):
+    count = 0
+
+    for y_vel in reversed(range(y_min, y_max)):
         for x_vel in range(x_max):
             success, max_height = shoot(x_vel, y_vel, x_target, y_target)
             if success:
-                return x_vel, y_vel, max_height
-    return "nothing found"
+                count += 1
+                # print(x_vel, y_vel)
+                # return x_vel, y_vel, max_height
+    # return "nothing found"
+    return count
 
 
 def shoot(x_vel, y_vel, x_target, y_target):
