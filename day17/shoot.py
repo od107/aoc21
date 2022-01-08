@@ -1,10 +1,8 @@
-def angle():
-    # x_target = [20, 30]
-    # y_target = [-10, -5]
-    # target = [[20, -5], [30, -10]]
-    # real target area: x=209..238, y=-86..-59
-    x_target = [209, 238]
-    y_target = [-86, -59]
+def angle(file, find_height=None):
+    with open(file) as f:
+        _, x_range, y_range = f.readline().strip().split("=")
+        x_target = list(map(int, x_range[:-3].split("..")))
+        y_target = list(map(int, y_range.split("..")))
 
     # the issue here was correctly limiting the search space
     y_max = -y_target[0]
@@ -20,9 +18,8 @@ def angle():
             success, max_height = shoot(x_vel, y_vel, x_target, y_target)
             if success:
                 count += 1
-                # print(x_vel, y_vel)
-                # return x_vel, y_vel, max_height
-    # return "nothing found"
+                if find_height:
+                    return max_height
     return count
 
 
@@ -45,9 +42,9 @@ def shoot(x_vel, y_vel, x_target, y_target):
 
 
 def main():
-    # print("the answer is ")
-    print(angle())
-    # print(shoot(6, 14, [20, 30], [-10, -5]))
+    print("the answer is ")
+    print(angle("data/test_data", True))
+    print(angle("data/test_data"))
 
 
 if __name__ == "__main__":
