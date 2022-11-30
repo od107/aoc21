@@ -5,10 +5,10 @@ def add(file):
 
     for line in values[1:]:
         result = insert(result, line)
-        exploded = True
-        while (exploded):
+        exploded, splitted = True, True
+        while exploded or splitted:
             result, exploded = explode(result)
-
+            result, splitted = split(result)
 
     return result
 
@@ -17,8 +17,23 @@ def insert(a, b):
     return "[" + a + "," + b + "]"
 
 
-def split(value):
-    return value
+def split(expr):
+    splitted = False
+
+    for i, letter in enumerate(expr[1:], start=1):
+        # if i == 0:
+        #     continue
+        if not char(letter) and not char(expr[i-1]):
+            val = 10 * int(expr[i-1]) + int(letter)
+            leftval = val // 2
+            rightval = (val+1) // 2
+            right_string = expr[i + 1:]
+            left_string = expr[:i-1]
+            expr = left_string + '[' + str(leftval) + ',' + str(rightval) + ']' + right_string
+            splitted = True
+            break
+
+    return expr, splitted
 
 
 def explode(expr):
@@ -37,7 +52,6 @@ def explode(expr):
                 i += 1
             # todo add support for numbers with 2 chars
             left_value = expr[i]
-            leftvalidx = i
             i += 2
             right_value = expr[i]
             rightidx = i+1
@@ -90,7 +104,8 @@ def readfile(file):
 
 def main():
     print("the answer is ")
-    print(explode('[7,[6,[5,[4,[3,2]]]]]'))
+    split('[[[[0,7],4],[15,[0,13]]],[1,1]]')
+    # print(explode('[7,[6,[5,[4,[3,2]]]]]'))
     # print(add("data/test_data4"))
 
 
