@@ -18,8 +18,9 @@ def test_add():
     assert add("day18/data/test_data1") == '[[[[1,1],[2,2]],[3,3]],[4,4]]'
     assert add("day18/data/test_data2") == '[[[[3,0],[5,3]],[4,4]],[5,5]]'
     assert add("day18/data/test_data3") == '[[[[5,0],[7,4]],[5,5]],[6,6]]'
+    assert add("day18/data/test_data6") == '[[[[0,7],4],[[7,8],[6,0]]],[8,1]]'
     assert add("day18/data/test_data4") == '[[[[8,7],[7,7]],[[8,6],[7,7]]],[[[0,7],[6,6]],[8,7]]]'
-    # assert add("day18/data/test_data5") == '[[[[6,6],[7,6]],[[7,7],[7,0]]],[[[7,7],[7,7]],[[7,8],[9,9]]]]'
+    assert add("day18/data/test_data5") == '[[[[6,6],[7,6]],[[7,7],[7,0]]],[[[7,7],[7,7]],[[7,8],[9,9]]]]'
 
 
 # def test_magnitude():
