@@ -23,14 +23,16 @@ def test_add():
     assert add("day18/data/test_data5") == '[[[[6,6],[7,6]],[[7,7],[7,0]]],[[[7,7],[7,7]],[[7,8],[9,9]]]]'
 
 
-# def test_magnitude():
-#     assert magnitude('[[1,2],[[3,4],5]]') == 143
-#     assert magnitude('[[[[0,7],4],[[7,8],[6,0]]],[8,1]]') == 1384
-#     assert magnitude('[[[[1,1],[2,2]],[3,3]],[4,4]]') == 445
-#     assert magnitude('[[[[3,0],[5,3]],[4,4]],[5,5]]') == 791
-#     assert magnitude('[[[[5,0],[7,4]],[5,5]],[6,6]]') == 1137
-#     assert magnitude('[[[[5,0],[7,4]],[5,5]],[6,6]]') == 1137
-#     assert magnitude('[[[[6,6],[7,6]],[[7,7],[7,0]]],[[[7,7],[7,7]],[[7,8],[9,9]]]]') == 4140
+def test_magnitude():
+    assert magnitude('[[1,2],[[3,4],5]]') == 143
+    assert magnitude('[[[[0,7],4],[[7,8],[6,0]]],[8,1]]') == 1384
+    assert magnitude('[[[[1,1],[2,2]],[3,3]],[4,4]]') == 445
+    assert magnitude('[[[[3,0],[5,3]],[4,4]],[5,5]]') == 791
+    assert magnitude('[[[[5,0],[7,4]],[5,5]],[6,6]]') == 1137
+    assert magnitude('[[[[5,0],[7,4]],[5,5]],[6,6]]') == 1137
+    assert magnitude('[[[[6,6],[7,6]],[[7,7],[7,0]]],[[[7,7],[7,7]],[[7,8],[9,9]]]]') == 4140
 
+def test_part1():
+    assert magnitude(add("day18/data/test_data5")) == 4140
 
 

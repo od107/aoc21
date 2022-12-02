@@ -109,8 +109,14 @@ def char(ch):
     return False
 
 
-def magnitude(value):
-    return value
+def magnitude(expr):
+    return mag(eval(expr))
+
+
+def mag(expr):
+    if isinstance(expr, int):
+        return expr
+    return 3 * mag(expr[0]) + 2 * mag(expr[1])
 
 
 def readfile(file):
@@ -127,12 +133,9 @@ def readfile(file):
 
 def main():
     print("the answer is ")
-    # split('[[[[0,7],4],[15,[0,13]]],[1,1]]')
-    # print(explode('[7,[6,[5,[4,[3,2]]]]]'))
-    print(add("data/test_data6"))
-    # print(add("data/test_data4"))
-    # print(explode('[[[[[15,123]],[3,87]]]]'))
-    # print(explode('[[3,[2,[10,[7,3]]]],[60,[5,[4,[3,2]]]]]'))
+    # print(add("data/test_data6"))
+    print(magnitude(add("data/test_data5")))
+    print(magnitude(add("data/real_data")))
 
 
 if __name__ == "__main__":
